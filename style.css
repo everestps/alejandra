@@ -2,27 +2,28 @@ body{
     background-color: #F0F0F0;
 }  
 
-
-h2 {
+/*Header of index page*/
+h3{
     text-align:center;
-    font-size:80px;
+    font-size:60px;
     font-family: Rockwell;
     color: #FF0066;
 }
 
 
-
+/*navigation bar on index page*/
 #navbar {
     position:relative;
     margin-top: 20px;
-    left: 50%;
-    margin-left: -254px;
+    left: 45%;
+    margin-left: -300px;
 }
 
 
+/*header on index page*/
 #header {
     position:relative;
-    top: -20px;
+    top: 10px;
 }
 
 
@@ -30,20 +31,48 @@ ul{
     list-style-type: none;
     position:relative;
     margin: 10px;
+
 }
 
-
+/*The List itself*/
 li{
     display:inline;
-    padding:10px;
-    border:2px solid #000000;
+    padding:30px;
+    /*border:2px solid #000000;*/
+    /*border-radius: 15px 5px;*/
     font-family: Garamond;
     color: black;
-    border-radius: 15px 5px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
+/*Unvisited link*/
+a:link{
+    color: #484848;
+    text-decoration:none;
+}
 
+/*visited link*/
+a:visited{
+    color:#484848;;
+}
+
+/*mouse over link*/
+a:hover{
+   color: #00ccff;
+}
+
+#indexText{
+    height:800px;
+    width:800px;
+    border: 2px solid;
+    /*border-radius: 5px;*/
+    background-color: #ffffff;
+    /*margin: 30px 50px 10px 10px;*/
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*Image with people*/
 img{
     height:350px;
     width:350px;
@@ -51,4 +80,6 @@ img{
     left: 30px;
     bottom: -100px;
 }
+
+
 
