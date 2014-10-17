@@ -9,15 +9,15 @@ h3{
     font-family: inherit;
     color: #333333;
     background-color:   #FF3333;
+    margin-bottom: 0;
 }
 
 
 /*navigation bar on index page*/
 #navbar {
-    position:relative;
     margin-top: 10px;
     left: 45%;
-    margin-left: -315px;
+    text-align: center;
 }
 
 
@@ -92,7 +92,7 @@ a:hover{
     width: 200px;
     border-radius: 10px;
     background-color: black;
-    margin: 60px 0 60px 650px;
+    margin: 60px 464px 60px 20px;
     display: inline-block;
     /*margin-left: auto;*/
 }
@@ -102,7 +102,7 @@ a:hover{
     width: 200px;
     border-radius: 10px;
     background-color: black;
-    margin: -600px 100px 60px 50px;
+    /*margin: -600px 100px 60px 50px;*/
     display: inline-block;
 }
 
@@ -115,20 +115,22 @@ a:hover{
     margin-right:auto;
 }
 
-/*p{
+p{
     font-size: 20px;
-    color: white;*/
+    color: #00ccff;
+    
 }
 
 /*Image with people*/
-/*img{
-    height:300px;
-    width:300px;
+img{
+    height:200px;
+    width:200px;
     position: relative;
-    float: right;
-    left: 10px;
-    bottom: -10px;
-}*/
+    /*float: right;*/
+    left: 350px;
+    bottom: 750px;
+    
+}
 
 
 
