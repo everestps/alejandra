@@ -1,29 +1,31 @@
 body{
-    background-color: #F0F0F0;
+    background-image: url("http://media-cache-ak0.pinimg.com/736x/15/34/b3/1534b32a8fa89225432aa8c52e2111d9.jpg");
 }  
 
 /*Header of index page*/
 h3{
     text-align:center;
-    font-size:60px;
-    font-family: Rockwell;
-    color: #FF0066;
+    font-size:70px;
+    font-family: inherit;
+    color: #333333;
+    background-color:   #FF3333;
 }
 
 
 /*navigation bar on index page*/
 #navbar {
     position:relative;
-    margin-top: 20px;
+    margin-top: 10px;
     left: 45%;
-    margin-left: -300px;
+    margin-left: -315px;
 }
 
 
 /*header on index page*/
 #header {
     position:relative;
-    top: 10px;
+    top: -15px;
+    background-color: #333333 ;
 }
 
 
@@ -41,19 +43,18 @@ li{
     /*border:2px solid #000000;*/
     /*border-radius: 15px 5px;*/
     font-family: Garamond;
-    color: black;
     font-size: 25px;
 }
 
 /*Unvisited link*/
 a:link{
-    color: #484848;
+    color: #f8f8f8;
     text-decoration:none;
 }
 
 /*visited link*/
 a:visited{
-    color:#484848;;
+    color:#f8f8f8;
 }
 
 /*mouse over link*/
@@ -62,24 +63,73 @@ a:hover{
 }
 
 #indexText{
-    height:800px;
-    width:800px;
-    border: 2px solid;
+    height:1000px;
+    width:900px;
+    border: 2px solid #00ccff;
     /*border-radius: 5px;*/
     background-color: #ffffff;
     /*margin: 30px 50px 10px 10px;*/
     margin-right: auto;
     margin-left: auto;
+    opacity: .7;
+}
+
+#welcBox{
+    height:200px;
+    width:700px;
+    /*border: 2px solid #FF0066;*/
+    border-radius: 10px;
+    background-color: #FF3333;
+    margin-right: auto;
+    margin-left:auto;
+    /*margin: 30px 50px 20px 30px*/
+    /*float:left;*/
+    /*opacity: .7;*/
+}
+
+#introBox{
+    height:450px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: black;
+    margin: 60px 0 60px 650px;
+    display: inline-block;
+    /*margin-left: auto;*/
+}
+
+#mainP {
+    height:450px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: black;
+    margin: -600px 100px 60px 50px;
+    display: inline-block;
+}
+
+#overView{
+    height:180px;
+    width:700px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+/*p{
+    font-size: 20px;
+    color: white;*/
 }
 
 /*Image with people*/
-img{
-    height:350px;
-    width:350px;
+/*img{
+    height:300px;
+    width:300px;
     position: relative;
-    left: 30px;
-    bottom: -100px;
-}
+    float: right;
+    left: 10px;
+    bottom: -10px;
+}*/
+
 
 
 
