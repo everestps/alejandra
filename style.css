@@ -63,7 +63,7 @@ a:hover{
 
 #indexText{
     height:1200px;
-    width:900px;
+    width:1000px;
     border: 2px solid #00ccff;
     /*border-radius: 5px;*/
     background-color: #ffffff;
@@ -89,32 +89,36 @@ a:hover{
 
 /*Image with people*/
 img{
-    height:300px;
+    height:200px;
     width:300px;
-    position: relative;
     /*float: right;*/
-    left: 300px;
-    bottom: 950px;
+    display: inline-block;
+    
     
 }
 
 #introBox{
-    height:500px;
-    width: 200px;
+    height:200px;
+    width: 650px;
     border-radius: 10px;
     background-color: black;
-    margin: 60px 464px 60px 20px;
+    /*margin: 60px 100px 60px 200px;*/
     display: inline-block;
-    /*margin-left: auto;*/
+    vertical-align: top;
+}
+
+.container {
+    margin: 30px 20px;
 }
 
 #mainP {
-    height:500px;
-    width: 200px;
+    height:200px;
+    width: 650px;
     border-radius: 10px;
     background-color: black;
     /*margin: 80px -100px 60px 20px;*/
     display: inline-block;
+    
 }
 
 #overView{
@@ -125,10 +129,10 @@ img{
     margin-left: auto;
     margin-right:auto;
     position: relative;
-    top: -10px;
+    margin-top: 10px;
     /*display: inline-block;*/
 }
-/*Selects first child which is the title*/
+/*Selects first child which is the title */
  div > p:first-child{
     font-size: 18px;
     color: #00ccff;
@@ -136,14 +140,9 @@ img{
     text-decoration: underline;
 }
 
-/*Selects the second child which is the actual text*/
+/*Selects the second child which is the actual text */
 div > p:nth-child(2){
     font-size: 15px;
     color: #00ccff;
     text-align: center;
 }
-
-
-
-
-
