@@ -33,7 +33,6 @@ ul{
     list-style-type: none;
     position:relative;
     margin: 10px;
-
 }
 
 /*The List itself*/
@@ -63,7 +62,7 @@ a:hover{
 }
 
 #indexText{
-    height:1000px;
+    height:1200px;
     width:900px;
     border: 2px solid #00ccff;
     /*border-radius: 5px;*/
@@ -71,24 +70,36 @@ a:hover{
     /*margin: 30px 50px 10px 10px;*/
     margin-right: auto;
     margin-left: auto;
-    opacity: .7;
+    opacity: .93;
 }
 
 #welcBox{
     height:200px;
-    width:700px;
+    width:600px;
     /*border: 2px solid #FF0066;*/
     border-radius: 10px;
     background-color: #FF3333;
     margin-right: auto;
     margin-left:auto;
-    /*margin: 30px 50px 20px 30px*/
+    /*display: inline-block;*/
+    /*margin: 30px 50px 20px 30px;*/
     /*float:left;*/
     /*opacity: .7;*/
 }
 
+/*Image with people*/
+img{
+    height:300px;
+    width:300px;
+    position: relative;
+    /*float: right;*/
+    left: 300px;
+    bottom: 950px;
+    
+}
+
 #introBox{
-    height:450px;
+    height:500px;
     width: 200px;
     border-radius: 10px;
     background-color: black;
@@ -98,39 +109,40 @@ a:hover{
 }
 
 #mainP {
-    height:450px;
+    height:500px;
     width: 200px;
     border-radius: 10px;
     background-color: black;
-    /*margin: -600px 100px 60px 50px;*/
+    /*margin: 80px -100px 60px 20px;*/
     display: inline-block;
 }
 
 #overView{
-    height:180px;
-    width:700px;
+    height:200px;
+    width:600px;
     border-radius: 10px;
     background-color: #FF3333;
     margin-left: auto;
     margin-right:auto;
-}
-
-p{
-    font-size: 20px;
-    color: #00ccff;
-    
-}
-
-/*Image with people*/
-img{
-    height:200px;
-    width:200px;
     position: relative;
-    /*float: right;*/
-    left: 350px;
-    bottom: 750px;
-    
+    top: -10px;
+    /*display: inline-block;*/
 }
+/*Selects first child which is the title*/
+ div > p:first-child{
+    font-size: 18px;
+    color: #00ccff;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*Selects the second child which is the actual text*/
+div > p:nth-child(2){
+    font-size: 15px;
+    color: #00ccff;
+    text-align: center;
+}
+
 
 
 
