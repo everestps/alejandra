@@ -2,22 +2,23 @@ body{
     background-image: url("http://media-cache-ak0.pinimg.com/736x/15/34/b3/1534b32a8fa89225432aa8c52e2111d9.jpg");
 }  
 
+/*Index page css*/
 /*Header of index page*/
 h3{
     text-align:center;
     font-size:70px;
     font-family: inherit;
     color: #333333;
-    background-color:   #FF3333;
+    background-color:#FF3333;
     margin-bottom: 0;
 }
 
 
 /*navigation bar on index page*/
 #navbar {
-    margin-top: 10px;
+    margin-top:10px;
     left: 45%;
-    text-align: center;
+    text-align:center;
 }
 
 
@@ -25,29 +26,27 @@ h3{
 #header {
     position:relative;
     top: -15px;
-    background-color: #333333 ;
+    background-color:#333333;
 }
 
 
 ul{
-    list-style-type: none;
+    list-style-type:none;
     position:relative;
-    margin: 10px;
+    margin:10px;
 }
 
 /*The List itself*/
 li{
     display:inline;
     padding:30px;
-    /*border:2px solid #000000;*/
-    /*border-radius: 15px 5px;*/
-    font-family: Garamond;
-    font-size: 25px;
+    font-family:Garamond;
+    font-size:25px;
 }
 
 /*Unvisited link*/
 a:link{
-    color: #f8f8f8;
+    color:#f8f8f8;
     text-decoration:none;
 }
 
@@ -62,12 +61,10 @@ a:hover{
 }
 
 #indexText{
-    height:1200px;
-    width:1000px;
+    height:1300px;
+    width:1050px;
     border: 2px solid #00ccff;
-    /*border-radius: 5px;*/
     background-color: #ffffff;
-    /*margin: 30px 50px 10px 10px;*/
     margin-right: auto;
     margin-left: auto;
     opacity: .93;
@@ -76,26 +73,18 @@ a:hover{
 #welcBox{
     height:200px;
     width:600px;
-    /*border: 2px solid #FF0066;*/
     border-radius: 10px;
     background-color: #FF3333;
     margin-right: auto;
     margin-left:auto;
-    /*display: inline-block;*/
-    /*margin: 30px 50px 20px 30px;*/
-    /*float:left;*/
-    /*opacity: .7;*/
 }
 
 /*Image with people*/
 img{
-    height:200px;
-    width:300px;
-    /*float: right;*/
+    height:230px;
+    width:330px;
     display: inline-block;
     margin-top: 15px;
-    
-    
 }
 
 #introBox{
@@ -103,7 +92,6 @@ img{
     width: 650px;
     border-radius: 10px;
     background-color: black;
-    /*margin: 60px 100px 60px 200px;*/
     display: inline-block;
     vertical-align: top;
 }
@@ -117,9 +105,7 @@ img{
     width: 650px;
     border-radius: 10px;
     background-color: black;
-    /*margin: 80px -100px 60px 20px;*/
     display: inline-block;
-    
 }
 
 #overView{
@@ -131,8 +117,19 @@ img{
     margin-right:auto;
     position: relative;
     margin-top: 10px;
-    /*display: inline-block;*/
 }
+
+/*About me page css*/
+#introAle{
+    height:250px;
+    width:600px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    margin-right: auto;
+    margin-left:auto;
+}   
+
+
 /*Selects first child which is the title */
  div > p:first-child{
     font-size: 18px;
@@ -147,3 +144,4 @@ div > p:nth-child(2){
     color: #00ccff;
     text-align: center;
 }
+
