@@ -46,28 +46,34 @@ li{
 
 /*Unvisited link*/
 a:link{
-    color:#f8f8f8;
+    color: #f8f8f8;
     text-decoration:none;
 }
 
 /*visited link*/
 a:visited{
-    color:#f8f8f8;
+    color: #f8f8f8 ;
 }
 
 /*mouse over link*/
 a:hover{
-   color: #00ccff;
+   color:#00ccff;
+}
+
+.active{
+    background-color: #ff3333;
+    opacity: .9;
+
 }
 
 #indexText{
-    height:1300px;
+    height:1250px;
     width:1050px;
     border: 2px solid #00ccff;
     background-color: #ffffff;
     margin-right: auto;
     margin-left: auto;
-    opacity: .93;
+    opacity: .94;
 }
 
 #welcBox{
@@ -81,7 +87,7 @@ a:hover{
 
 /*Image with people*/
 img{
-    height:230px;
+    height:220px;
     width:330px;
     display: inline-block;
     margin-top: 15px;
