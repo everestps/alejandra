@@ -133,7 +133,22 @@ img{
     background-color: #FF3333;
     margin-right: auto;
     margin-left:auto;
-}   
+} 
+
+#books{
+    height:250px;
+    width: 650px;
+    border-radius: 10px;
+    background-color: black;
+    display: inline-block;
+    
+}
+
+table, td{
+    border: 1px #70b8ff solid;
+    /*height:100;
+    width:150px;*/
+}
 
 
 /*Selects first child which is the title */
