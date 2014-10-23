@@ -153,11 +153,12 @@ table img {
 }
 
 #hobbies {
-    height:400px;
+    height:657px;
     width:300px;
     border-radius: 10px;
     background-color: #FF3333;
     position: relative;
+    margin-top: 27px;
     display: inline-block;
 }
 
