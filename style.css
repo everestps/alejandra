@@ -136,7 +136,7 @@ img{
 } 
 
 #books{
-    height:250px;
+    height:220px;
     width: 650px;
     border-radius: 10px;
     background-color: black;
@@ -144,10 +144,28 @@ img{
     
 }
 
-table, td{
-    border: 1px #70b8ff solid;
-    /*height:100;
-    width:150px;*/
+/*#booksMovies{
+    display:inline-block;
+}*/
+
+table img {
+    border:1px #70b8ff solid;
+    height:210px;
+    width:210px;
+    margin: auto;
+    display: inline-block;
+}
+
+#hobbies {
+    height:400px;
+    width:300px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    /*margin-left: auto;
+    margin-right:auto;*/
+    position: relative;
+    margin-top: 10px;
+    display: inline-block;
 }
 
 
