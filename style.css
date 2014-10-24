@@ -42,6 +42,12 @@ li{
     padding:30px;
     font-family:Garamond;
     font-size:25px;
+    transition:all .3s ease;
+}
+
+li:hover{
+    transform:rotateZ(360deg);
+    font-size:35px;
 }
 
 /*Unvisited link*/
@@ -188,6 +194,56 @@ img{
     font-size:15px;
 }
 
+/*HTML Page*/
+
+#htmlBox{
+    height:130px;
+    width:650px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+.grape img{
+    margin: auto;
+    display: inline-block;
+    height:160px;
+    width:330px;
+}
+
+.grape{
+    border:1px #70b8ff solid;
+    margin: auto;
+    display: inline-block;
+    color:#00ccff;
+    font-size:15px;
+}
+
+#css{
+    height:150px;
+    width:600px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+.carrot img{
+    margin: auto;
+    display: inline-block;
+    height:200px;
+    width:330px;
+}
+
+.carrot{
+    border:1px #70b8ff solid;
+    margin: auto;
+    display: inline-block;
+    color:#00ccff;
+    font-size:15px;
+    background-color:black;
+}
 
 /*Selects first child --> the title */
  div > p:first-child{
