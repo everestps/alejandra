@@ -146,8 +146,8 @@ img{
 
 .aboutTable img {
     border:1px #70b8ff solid;
-    height:210px;
-    width:210px;
+    height:215px;
+    width:215px;
     margin: auto;
     display: inline-block;
 }
@@ -174,20 +174,20 @@ img{
 
 /*table on hardware page*/
 .lamp img{
-    /*border:1px #70b8ff solid;*/
     margin: auto;
     display: inline-block;
-    height:250px;
-    width:250px;
+    height:210px;
+    width:210px;
 }
 
 .lamp{
     border:1px #70b8ff solid;
     margin: auto;
     display: inline-block;
-    text-align:center;
     color:#00ccff;
+    font-size:15px;
 }
+
 
 /*Selects first child --> the title */
  div > p:first-child{
