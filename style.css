@@ -91,7 +91,7 @@ a:hover{
     margin-left:auto;
 }
 
-/*Image with people*/
+/*Image with people & everest*/
 img{
     height:220px;
     width:330px;
@@ -195,10 +195,20 @@ img{
 }
 
 /*HTML Page*/
+#HTMLText{
+    height:2000px;
+    width:1050px;
+    border: 2px solid #00ccff;
+    background-color: #ffffff;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: .94;
+}
+
 
 #htmlBox{
     height:130px;
-    width:650px;
+    width:755px;
     border-radius: 10px;
     background-color: #FF3333;
     margin-right: auto;
@@ -221,8 +231,8 @@ img{
 }
 
 #css{
-    height:150px;
-    width:600px;
+    height:135px;
+    width:755px;
     border-radius: 10px;
     background-color: #FF3333;
     margin-right: auto;
@@ -232,7 +242,7 @@ img{
 .carrot img{
     margin: auto;
     display: inline-block;
-    height:200px;
+    height:160px;
     width:330px;
 }
 
@@ -243,6 +253,72 @@ img{
     color:#00ccff;
     font-size:15px;
     background-color:black;
+}
+
+#tags{
+    height:130px;
+    width:755px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+.pie img{
+    margin: auto;
+    display: inline-block;
+    height:190px;
+    width:330px;
+}
+
+.pie{
+    border:1px #70b8ff solid;
+    margin: auto;
+    display: inline-block;
+    color:#00ccff;
+    font-size:15px;
+    background-color:black;
+}
+
+#att{
+    height:100px;
+    width:755px;
+    border-radius: 10px;
+    background-color: #FF3333;
+    margin-right: auto;
+    margin-left:auto;
+}
+.hay img{
+    margin: auto;
+    display: inline-block;
+    height:190px;
+    width:330px;
+}
+
+.hay{
+    border:1px #70b8ff solid;
+    margin: auto;
+    display: inline-block;
+    color:#00ccff;
+    font-size:15px;
+    background-color:black;
+}
+
+.dots img{
+    margin: auto;
+    display: inline-block;
+    height:200px;
+    width:250px;
+}
+
+.dots{
+    border:1px #70b8ff solid;
+    margin: auto;
+    display: inline-block;
+    color:#00ccff;
+    font-size:15px;
+    background-color:#ff3333;
+    text-align:center;
 }
 
 /*Selects first child --> the title */
