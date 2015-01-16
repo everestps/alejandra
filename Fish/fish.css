@@ -1,0 +1,47 @@
+body{
+    background-image: url('http://designreflect.com/wp-content/uploads/2012/09/wooden-textures/Vintage-Grunge-Wood-Background.jpg');
+}
+
+
+.tank-background{
+    width:1050px;
+    height:600px;
+	margin: auto;
+	overflow:hidden;
+	background-image: url('http://freetopwallpaper.com/wp-content/gallery/fish/beautiful-fish-wallpaper-hd-84.jpg');
+	background-size:100%;
+	position:relative;
+	background-color:#78A8D6;
+	border:15px solid #585858;
+	border-top:35px solid #585858;
+}
+
+
+#fish{
+    display: block;
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    top:400px;
+    left:300px;
+} 
+#fish img{
+    transition: all 10s ease-in-out;
+    perspective: 800px;
+    perspective-origin: 50% 100px;
+}
+
+.flipped{
+    transform:rotateY(180deg);
+}
+
+
+#food{
+    display: block;
+    width: 70px;
+    height: 70px;
+    visibility: hidden;
+    /*position: absolute;
+    top:50px;
+    left: 300px;*/
+}
